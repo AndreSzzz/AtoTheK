@@ -24,7 +24,7 @@ function keyPressed() {
   background(0,50);
   textFont(font); 
   textSize(400);
-  text(key, height/1, width/3.5);
+  text(key, width/2, height/2.5);
 }
 
 function setup() {
@@ -34,7 +34,7 @@ function setup() {
  /*This code has been taken from The Coding Train's "Steering Behaviours" video.
  It has been altered and adpated to my font*/
     // Retrieve text points
-    points = font.textToPoints('Reverto', height/2.5, width/3.5, 400, {
+    points = font.textToPoints('Reverto',  width/3.5, height/2, 400, {
         sampleFactor: 0.1,
       
     });
